@@ -4,47 +4,22 @@
     {
         static void Main(string[] args)
         {
-            /* Console.WriteLine("Hello, World!");
-             Console.WriteLine("\n HOLA");
-             Console.WriteLine("\t HOLA2");
+            Console.WriteLine("Ejemplo de Hello Word:");
+            HelloWord.Mostrar();
 
-             /*APLICAR
-              * VARIABLES
-              * TIPOS DE DATOS
-              */
+            Console.WriteLine("Ejemplo de Declaración e Inicialización de Variables:");
+            Variables.DeI();
 
-            /*   int x; // Declaracion
-               x = 10; // Inicializacion
-               int y = 20; // Declaracion e inicializacion
-               Console.WriteLine(x);
-               Console.WriteLine(y);
-               int z = x + y;
-               Console.WriteLine(z);
-               int edad = 22;
-               int edad2 = 24; // Tipo de dato entero
-               Console.WriteLine("Tú edad es: " +edad);
-               double altura = 1.60; // Tipo de dato con decimales más preciso que float
-               Console.WriteLine("Tú altura es: " +altura );
-               bool comparar = edad == edad2; // Tipo de dato booleano (true o false)
-               Console.WriteLine(comparar);
-               char letra = 'a'; // Tipo de dato caracter (una sola letra)
-               Console.WriteLine(letra);
-               string nombre = "Juan"; // Tipo de dato cadena de texto
-               Console.WriteLine("Tu nombre es: " +nombre);
+            Console.WriteLine("Ejemplo de tipos de datos:");
+            TipoDato.TdD();
 
-               // Constantes
-               double pi = 3.1416;
-               pi = 3.14; // No se puede cambiar el valor de una constante, pero esta no es una constante
-               Console.WriteLine(pi);
-               const double gravedad = 9.81; // Constante
-              // double gravedad = 10; // No se puede cambiar el valor de una constante
-               Console.WriteLine(gravedad);
+            Console.WriteLine("Ejemplo de Constantes:");
+            Constante c = new Constante();
 
-               // Conversion de tipos
-               double numero = 10.52;
-               int numero2 = Convert.ToInt32(numero); // Conversion implicita
-               Console.WriteLine(numero2);
+            Console.WriteLine("Ejemplo de Conversión de tipos de datos:");
+            Conversion conv = new Conversion();
 
+            /*  
                // Entrada de datos
                Console.Write("¿Cuál es tu nombre?");
                string name = Console.ReadLine();
