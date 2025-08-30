@@ -10,7 +10,7 @@ namespace App1
     {
         public Conversion() 
         {
-            Console.WriteLine("Conversion de tipos de datos");
+            
             int entero = 10;
             double doble = entero; // Implicita
             Console.WriteLine("Entero a doble: " + doble);
