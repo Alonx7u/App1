@@ -43,5 +43,3 @@ Este repositorio incluye ejemplos de:
 
 ---
 ✍️ *Este repositorio es un registro de mi aprendizaje, por lo que puede contener código experimental y ejemplos simples, enfocados en reforzar los conceptos.* 🙇🏻‍♀️
-
-✍️ *Este repositorio es un registro de mi aprendizaje, por lo que puede contener código experimental y ejemplos simples, enfocados en reforzar los conceptos.*
