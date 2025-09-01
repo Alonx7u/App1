@@ -38,8 +38,21 @@
 
             Console.WriteLine("Ejemplo de ClassMath:");
             ClassMath cm = new ClassMath();
-
             Console.ReadLine();
+
+            Console.WriteLine("Ejemplo de Cálculo de Hipotenusa:");
+            Hipotenusa h = new Hipotenusa();
+            Console.ReadLine();
+
+            Console.WriteLine("Ejemplo de Numeros Aleatorios:");
+            Ramdom r = new Ramdom();
+            Console.ReadLine();
+
+            Console.WriteLine("Ejemplo de Metodos cadena:");
+            StringMethod sm = new StringMethod();
+            Console.ReadLine();
+
+
 
 
         }
