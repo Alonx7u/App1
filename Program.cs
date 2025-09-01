@@ -4,57 +4,45 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Siempre dar ENTER para continuar...");
-            Console.ReadLine();
+            int option;
+            do
+            {
+                Console.Clear();
+                Console.WriteLine("°°°Bienvenido a mi menú°°°");
+                Console.WriteLine("1. Hello World");
+                Console.WriteLine("2. Pruebas");
+                Console.WriteLine("Elige una opción: ");
 
-            Console.WriteLine("Ejemplo de Hello Word:");
-            HelloWord.Mostrar();
-            Console.WriteLine("No olvides dar ENTER para continuar...");
-            Console.ReadLine();
+                if (int.TryParse(Console.ReadLine(), out option))
+                {
+                    Console.Clear();
+                    switch (option)
+                    {
+                        case 1:
+                            HelloWord.Mostrar();
+                            break;
+                        case 2:
+                            Logico l = new Logico();
+                            break;
+                        case 0:
+                            Console.WriteLine("Saliendo ....");
+                            break;
 
-            Console.WriteLine("Ejemplo de Declaración e Inicialización de Variables:");
-            Variables.DeI();
-            Console.ReadLine();
-
-            Console.WriteLine("Ejemplo de tipos de datos:");
-            TipoDato.TdD();
-            Console.ReadLine();
-
-            Console.WriteLine("Ejemplo de Constantes:");
-            Constante c = new Constante();
-            Console.ReadLine();
-
-            Console.WriteLine("Ejemplo de Conversión de tipos de datos:");
-            Conversion conv = new Conversion();
-            Console.ReadLine();
-
-            Console.WriteLine("Ejemplo de Entrada de datos");
-            DataEntry de = new DataEntry();
-            Console.ReadLine();
-
-            Console.WriteLine("Ejemplo de Operadores Aritméticos:");
-            Operadores op = new Operadores();
-            Console.ReadLine();
-
-            Console.WriteLine("Ejemplo de ClassMath:");
-            ClassMath cm = new ClassMath();
-            Console.ReadLine();
-
-            Console.WriteLine("Ejemplo de Cálculo de Hipotenusa:");
-            Hipotenusa h = new Hipotenusa();
-            Console.ReadLine();
-
-            Console.WriteLine("Ejemplo de Numeros Aleatorios:");
-            Ramdom r = new Ramdom();
-            Console.ReadLine();
-
-            Console.WriteLine("Ejemplo de Metodos cadena:");
-            StringMethod sm = new StringMethod();
-            Console.ReadLine();
-
-
-
-
+                        default:
+                            Console.WriteLine("Opción No Valida");
+                            break;
+                    }
+                }
+                else
+                {
+                    Console.WriteLine("Por favor ingresa un número válido.");
+                }
+                if (option != 0) ;
+                {
+                    Console.WriteLine("\nPresiona ENTER para volver al menú...");
+                    Console.ReadLine();
+                }
+            } while (option != 0);
         }
     }
 }
