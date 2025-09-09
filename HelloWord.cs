@@ -11,8 +11,8 @@ namespace App1
         public static void Mostrar()
         {
             Console.WriteLine("Hello, World!");
-            Console.WriteLine("\n HOLA");
-            Console.WriteLine("\t HOLA2");
+          //  Console.WriteLine("\n HOLA"); 
+          //  Console.WriteLine("\t HOLA2");
         }
     }
 }

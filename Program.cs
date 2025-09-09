@@ -22,7 +22,7 @@
                             HelloWord.Mostrar();
                             break;
                         case 2:
-                            Logico l = new Logico();
+                            
                             break;
                         case 0:
                             Console.WriteLine("Saliendo ....");

@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace App1
 {
-    internal class Array
+    internal class DataValues
     {
-        public Array()
+        public static void Array()
         {
             string[] colores = { "verde", "azul", "rojo" };
 
@@ -19,6 +19,6 @@ namespace App1
                 Console.WriteLine(colores[i]);
 
             }
-        }   
+        }
     }
 }
